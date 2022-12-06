@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="John Doe">
+    <title>Login form</title>
+</head>
+<body >
+    <div style="background-color: rgb(207, 89, 89); padding: 1%; width: 5%; margin-left: 2%;">Login form</div>
+    <div style="background-color: rgb(231, 190, 190);">
+        
+
+    <form>
+        <div style="background-color: rgba(188, 35, 163, 0.498); ">
+            <br><br>
+        <label for="fname" style="margin-left: 1%;">First Name:</label>
+        <input type="text" id="fname" required placeholder="Ex Ahmed" name="fname" minlength="3" maxlength="20">
+        <br>
+        <br>
+
+        <label for="lname" style="margin-left: 1%;">Last Name:</label>
+        <input type="text" id="lname" required placeholder="Ex Maher" name="lname" minlength="3" maxlength="20">
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+
+        <label for="phone" style="margin: 0.2%;">Your Phone:</label>
+        <input type="number" id="phone" name="phone">
+        <br>
+        <br>
+        <label for="Age" style="margin: 0.6%;">Your Age:</label>
+        <input type="number" id="Age" name="Age" min="18" max="85">
+        <br>
+        <br>
+        <label for="email" style="margin: 1.2%;">Email:</label>
+        <input type="text" id="email" name="email" value="@gmail.com" required>
+        <br>
+        <br>
+        <label for="pass" style="margin: 0.6%;">Password:</label>
+        <input type="password" id="pass" required>
+
+        <br>
+        <br>
+        <label for="repass">Re-password:</label>
+        <input type="password" id="repass" required>
+        <br><br><br>
+        <label>Gender:</label>
+        
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <br>
+        <label for="">Military Status:</label>
+        <input type="checkbox" name="Done" value="Done">
+        <label>Done</label>
+       
+        
+        <input type="checkbox" name="Exempted" value="Exempted">
+        <label>Exempted</label>
+        <br><br><br><br>
+        <label> University: </label>
+        <select name="University">
+            <option value="Cairo">Cairo University</option>
+            <option value="Ain Shams">Ain Shams University</option>
+            <option value="AUC">AUC</option>
+            <option value="Helwan">Hewan University</option>
+            <option value="October">6 October University</option>
+            <option value="Alex">Alex University</option>
+            <option value="BUE">British University in Egypt(BUE)</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <input type="reset" value="RESET">
+    </form>
+</div>
+</body>
+</html>
